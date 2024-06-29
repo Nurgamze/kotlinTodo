@@ -1,0 +1,21 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/todoListPage">
+
+    <fragment
+        android:id="@+id/todoListPage"
+        android:name="com.example.todoapptask.TodoListPage"
+        android:label="Todo List Page"
+        tools:layout="@layout/todo_list_page" />
+
+    <fragment
+        android:id="@+id/kronometrePage"
+        android:name="com.example.todoapptask.KronometrePage"
+        android:label="Kronometre Page"
+        tools:layout="@layout/kronometre_page" />
+
+    <!-- Diğer fragmentlar buraya eklenebilir -->
+
+</navigation>
